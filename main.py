@@ -35,7 +35,13 @@ with st.sidebar:
         icon_image=LOGO_URL_LARGE,
     )
 
+    st.markdown("""
 
+     🔗 [LinkedIn](https://www.linkedin.com/in/adolfo-hugo-silva-a298751aa)
+                  
+     📂 [GitHub](https://github.com/adolfohugosilva)
+                
+    """)
 
 st.title('Sistema de Validação de CPF')
 st.write('Informe os dados solicitados para validar seu CPF.')
