@@ -37,11 +37,11 @@ st.logo(
 st.set_page_config(page_title="Validador de CPF", layout="centered")
 
 st.title('Sistema de Validação de CPF')
-st.write('Informe os dados solicitados para validar seu CPF.', type ='password')
+st.write('Informe os dados solicitados para validar seu CPF.')
 
 nascidos_2011 = st.radio('Seu CPF foi emitido depois de 2011?', ('Sim', 'Não'))
 
-cpf_09 = st.text_input('Digite os 9 primeiros dígitos do seu CPF (somente números):')
+cpf_09 = st.text_input('Digite os 9 primeiros dígitos do seu CPF (somente números):', type ='password')
 
 if cpf_09:
     cpf_tratado = cpf_09.strip()
