@@ -34,18 +34,7 @@ with st.sidebar:
         link="https://adolfohugosilvaportifolio.streamlit.app",
         icon_image=LOGO_URL_LARGE,
     )
-    st.markdown("""
-    📧 Email: adolfohugosilvadev@gmail.com
-                  
-     📞 WhatsApp: (82) 99683-8463  
-                
-     🔗 [LinkedIn](https://www.linkedin.com/in/adolfo-hugo-silva-a298751aa)
 
-     📄 [Portifólio](https://adolfohugosilvaportifolio.streamlit.app)
-                  
-     📂 [GitHub](https://github.com/adolfohugosilva)
-        
-    """)
 
 
 st.title('Sistema de Validação de CPF')
