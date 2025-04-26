@@ -37,7 +37,7 @@ st.logo(
 st.set_page_config(page_title="Validador de CPF", layout="centered")
 
 st.title('Sistema de Validação de CPF')
-st.write('Informe os dados solicitados para validar seu CPF.')
+st.write('Informe os dados solicitados para validar seu CPF.', type ='password')
 
 nascidos_2011 = st.radio('Seu CPF foi emitido depois de 2011?', ('Sim', 'Não'))
 
