@@ -35,7 +35,7 @@ with st.sidebar:
         icon_image=LOGO_URL_LARGE,
     )
     st.markdown("""
-    📧 Email: adolfohugosilva@gmail.com
+    📧 Email: adolfohugosilvadev@gmail.com
                   
      📞 WhatsApp: (82) 99683-8463  
                 
