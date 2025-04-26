@@ -54,7 +54,7 @@ if cpf_09:
             digito1 = calcular_digito(cpf_tratado, 10)
             digito2 = calcular_digito(cpf_tratado + str(digito1), 11)
 
-            cpf_completo = cpf_tratado + str(digito1) + str(digito2)
+            
             
             st.success(f'Baseado nos dados, seu CPF pode pertencer a um destes estados: {", ".join(estados)}')
             final_cpf_completo = str(digito1) + str(digito2)
@@ -66,7 +66,7 @@ if cpf_09:
             digito2 = calcular_digito(cpf_tratado + str(digito1), 11)
 
             final_cpf_completo = str(digito1) + str(digito2)
-            cpf_completo = cpf_tratado + str(digito1) + str(digito2)
+            
             
         
             st.success(f'O final do  CPF é: **{final_cpf_completo}**')
