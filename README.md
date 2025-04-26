@@ -9,7 +9,9 @@ Demonstração
 <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit Logo" width="30"/> Aplicativo feito com Streamlit.
 
 ✅ Entrada: 9 primeiros dígitos do CPF
+
 ✅ Saída: CPF completo, finais calculados e estados relacionados (para CPFs emitidos antes de 2011)
+
 ✅ Explicação do processo de cálculo dos dígitos verificadores
 
 Funcionalidades
