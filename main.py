@@ -40,10 +40,11 @@ with st.sidebar:
      📞 WhatsApp: (82) 99683-8463  
                 
      🔗 [LinkedIn](https://www.linkedin.com/in/adolfo-hugo-silva-a298751aa)
+
+     📄 [Portifólio](https://adolfohugosilvaportifolio.streamlit.app)
                   
      📂 [GitHub](https://github.com/adolfohugosilva)
-                
-     📄 [Baixar Currículo em PDF](https://drive.google.com/file/d/1Rodf_389YdafdWk6KtJKLjirmitxsa81/view?usp=sharing)
+        
     """)
 
 
