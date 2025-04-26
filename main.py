@@ -39,7 +39,7 @@ with st.sidebar:
 
      🔗 [LinkedIn](https://www.linkedin.com/in/adolfo-hugo-silva-a298751aa)
                   
-     📂 [GitHub](https://github.com/adolfohugosilva)
+     📂 [GitHub](https://github.com/Adolfo-Hugo/Validador-CPF/blob/main/main.py)
                 
     """)
 
