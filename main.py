@@ -41,7 +41,7 @@ st.write('Informe os dados solicitados para validar seu CPF.')
 
 nascidos_2011 = st.radio('Seu CPF foi emitido depois de 2011?', ('Sim', 'Não'))
 
-cpf_09 = st.text_input('Digite os 9 primeiros dígitos do seu CPF (somente números):', type ='password')
+cpf_09 = st.text_input('Digite os 9 primeiros dígitos do seu CPF (somente números):', type = 'password')
 
 if cpf_09:
     cpf_tratado = cpf_09.strip()
@@ -55,11 +55,11 @@ if cpf_09:
             digito2 = calcular_digito(cpf_tratado + str(digito1), 11)
 
             cpf_completo = cpf_tratado + str(digito1) + str(digito2)
-            cpf_formatado = f'{cpf_completo[:3]}.{cpf_completo[3:6]}.{cpf_completo[6:9]}-{cpf_completo[9:]}'
+            
             st.success(f'Baseado nos dados, seu CPF pode pertencer a um destes estados: {", ".join(estados)}')
             final_cpf_completo = str(digito1) + str(digito2)
             st.success(f'O final do  CPF é: **{final_cpf_completo}**')
-            st.success(f'O seu CPF completo é: **{cpf_formatado}**')
+            
         else:
 
             digito1 = calcular_digito(cpf_tratado, 10)
@@ -67,10 +67,10 @@ if cpf_09:
 
             final_cpf_completo = str(digito1) + str(digito2)
             cpf_completo = cpf_tratado + str(digito1) + str(digito2)
-            cpf_formatado = f'{cpf_completo[:3]}.{cpf_completo[3:6]}.{cpf_completo[6:9]}-{cpf_completo[9:]}'
+            
         
             st.success(f'O final do  CPF é: **{final_cpf_completo}**')
-            st.success(f'O seu CPF completo é: **{cpf_formatado}**')
+            
     st.write('Explicação: ')
     st.write('O CPF tem a configuração XXX.XXX.XXX-XX, onde os primeiros oito dígitos são o número-base,' \
     ' o nono define a Região Fiscal (até 2011), o décimo é o "Digito Verificador" (DV) módulo 11 dos nove dígitos anteriores e' \
