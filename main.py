@@ -28,13 +28,24 @@ def obter_estado_por_oitavo_digito(nono_digito):
 
 LOGO_URL_LARGE = "https://streamlit.io/images/brand/streamlit-mark-color.png" 
 
-st.logo(
-    LOGO_URL_LARGE,
-    link="https://adolfohugosilvaportifolio.streamlit.app",
-    icon_image=LOGO_URL_LARGE,
-)
+with st.sidebar:
+    st.logo(
+        LOGO_URL_LARGE,
+        link="https://adolfohugosilvaportifolio.streamlit.app",
+        icon_image=LOGO_URL_LARGE,
+    )
+    st.markdown("""
+    📧 Email: adolfohugosilva@gmail.com
+                  
+     📞 WhatsApp: (82) 99683-8463  
+                
+     🔗 [LinkedIn](https://www.linkedin.com/in/adolfo-hugo-silva-a298751aa)
+                  
+     📂 [GitHub](https://github.com/adolfohugosilva)
+                
+     📄 [Baixar Currículo em PDF](https://drive.google.com/file/d/1Rodf_389YdafdWk6KtJKLjirmitxsa81/view?usp=sharing)
+    """)
 
-st.set_page_config(page_title="Validador de CPF", layout="centered")
 
 st.title('Sistema de Validação de CPF')
 st.write('Informe os dados solicitados para validar seu CPF.')
@@ -78,4 +89,4 @@ if cpf_09:
     st.write('Fonte: http://clubes.obmep.org.br/blog/a-matematica-nos-documentos-a-matematica-dos-cpfs/')
 
 st.markdown("---")
-st.markdown("<p style='text-align: center; font-size: 14px;'>© 2025 Adolfo Hugo Silva </p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: right; font-size: 14px;'>© 2025 Adolfo Hugo Silva </p>", unsafe_allow_html=True)
